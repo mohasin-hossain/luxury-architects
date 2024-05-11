@@ -396,7 +396,7 @@ body {
   margin-bottom: 2rem;
 }
 .features__image {
-  width: 80%;
+  width: 50%;
 }
 @media only screen and (max-width: 37.5em) {
   .features__image {
@@ -444,4 +444,56 @@ body {
   .features__image__exp span {
     font-size: 3rem;
   }
+}
+
+.facts {
+  margin: 10rem;
+}
+.facts__title {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.facts__details {
+  max-width: 550px;
+  padding: 2rem 0 6rem 0;
+}
+.facts__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12rem;
+  padding: 0 4rem 0 4rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .facts__cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+  }
+}
+@media only screen and (max-width: 78.75em) {
+  .facts__cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .facts__cards {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+.facts__card {
+  text-align: center;
+  padding: 2rem;
+  border: 2px solid #FF900E;
+  border-radius: 0.8rem;
+}
+.facts__card h5 {
+  font-size: 4rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.facts__card p {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #727272;
 }/*# sourceMappingURL=main.css.map */
