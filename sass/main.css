@@ -529,4 +529,13 @@ body {
 }
 .sponsors__list div img:hover {
   filter: grayscale(0%);
+}
+
+.footer {
+  padding: 6rem 2rem 6rem 2rem;
+  background-color: rgba(255, 144, 14, 0.1);
+  color: #727272;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
