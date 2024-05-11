@@ -337,4 +337,111 @@ body {
   color: #727272;
   line-height: 2.6rem;
   text-align: justify;
+}
+
+.features {
+  margin: 10rem;
+  display: flex;
+}
+@media only screen and (max-width: 37.5em) {
+  .features {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 78.75em) {
+  .features {
+    flex-direction: column;
+  }
+}
+.features__details {
+  width: 50%;
+  padding-right: 10rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .features__details {
+    width: 100%;
+    padding: 0 0 10rem 0;
+  }
+}
+@media only screen and (max-width: 78.75em) {
+  .features__details {
+    width: 100%;
+    padding: 0 0 10rem 0;
+  }
+}
+.features__details h4 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  border-left: 4px solid #FF900E;
+  padding-left: 1.5rem;
+}
+.features__details > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 2.5rem 0;
+}
+.features__cards__item {
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 2.5rem;
+}
+.features__cards__item > p {
+  color: #727272;
+  font-weight: 400;
+  line-height: 2.6rem;
+  padding-top: 2rem;
+}
+.features__cards__item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.features__image {
+  width: 80%;
+}
+@media only screen and (max-width: 37.5em) {
+  .features__image {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 78.75em) {
+  .features__image {
+    margin: 0 auto;
+  }
+}
+.features__image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.features__image__exp {
+  text-align: center;
+  display: inline-block;
+  padding: 3rem;
+  background-color: #FF900E;
+  border-radius: 0.8rem;
+  color: white;
+  margin: -6rem 0 0 -6rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .features__image__exp {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 78.75em) {
+  .features__image__exp {
+    padding: 2rem;
+  }
+}
+.features__image__exp span {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 37.5em) {
+  .features__image__exp span {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 78.75em) {
+  .features__image__exp span {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=main.css.map */

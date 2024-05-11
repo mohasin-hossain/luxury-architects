@@ -1,0 +1,87 @@
+.features {
+    margin: 10rem;
+    display: flex;
+
+    @include respond(tab-land) {
+        flex-direction: column;
+    }
+    
+    &__details {
+        width: 50%;
+        padding-right: 10rem;
+
+        @include respond(tab-land) {
+            width: 100%;
+            padding: 0 0 10rem 0;
+        }
+
+        & h4 {
+            font-size: 4.5rem;
+            font-weight: 700;
+            border-left: 4px solid $ClrPrimary;
+            padding-left: 1.5rem;
+        }
+
+        & > p {
+            font-size: 1.6rem;
+            font-weight: 400;
+            padding: 2.5rem 0;
+        }
+    }
+
+    &__cards {
+        &__item {
+            border-radius: 8px;
+            background-color: #FFF;
+            box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+            padding: 2.5rem;
+
+            & > p {
+                color: $ClrTextSecondary;
+                font-weight: 400;
+                line-height: 2.6rem;
+                padding-top: 2rem;
+            }
+        }
+
+        &__item:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__image {
+        width: 80%;
+
+        @include respond(tab-land) {
+            margin: 0 auto;
+        }
+
+        & img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        &__exp {
+            text-align: center;
+            display: inline-block;
+            padding: 3rem;
+            background-color: $ClrPrimary;
+            border-radius: .8rem;
+            color: white;
+            margin: -6rem 0 0 -6rem;
+
+            @include respond(tab-land) {
+                padding: 2rem;
+            }
+
+            & span {
+                font-size: 4.5rem;
+                font-weight: 700;
+
+                @include respond(tab-land) {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
