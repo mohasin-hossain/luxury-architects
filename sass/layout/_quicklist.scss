@@ -5,6 +5,7 @@
 
     @include respond(phone) {
         flex-direction: column;
+        margin: 5rem;
     }
 
     &__images {
@@ -53,7 +54,7 @@
             color: $ClrPrimary;
             font-weight: 700;
         }
-        
+
 
         &__details {
             margin: 2.5rem 0;

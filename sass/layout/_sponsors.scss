@@ -1,6 +1,10 @@
 .sponsors {
     margin: 10rem;
 
+    @include respond(phone) {
+        margin: 5rem;
+    }
+
     &__title {
         text-align: center;
         font-size: 4.5rem;

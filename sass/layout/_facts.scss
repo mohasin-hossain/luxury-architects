@@ -1,6 +1,10 @@
 .facts {
     margin: 10rem;
 
+    @include respond(phone) {
+        margin: 5rem;
+    }
+
     &__title {
         font-size: 4.5rem;
         font-weight: 700;
