@@ -1,11 +1,11 @@
 .quicklist {
-    margin: 10rem;
+    padding: 10rem;
     display: flex;
     align-items: center;
 
     @include respond(phone) {
         flex-direction: column;
-        margin: 5rem;
+        padding: 5rem;
     }
 
     &__images {

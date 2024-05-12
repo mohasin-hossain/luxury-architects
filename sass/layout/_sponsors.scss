@@ -1,8 +1,8 @@
 .sponsors {
-    margin: 10rem;
+    padding: 10rem;
 
     @include respond(phone) {
-        margin: 5rem;
+        padding: 5rem;
     }
 
     &__title {

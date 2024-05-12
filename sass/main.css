@@ -75,7 +75,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding-top: 5rem;
+  padding-top: 8rem;
   text-align: center;
 }
 .header__title {
@@ -276,20 +276,20 @@ body {
 }
 
 .quicklist {
-  margin: 10rem;
+  padding: 10rem;
   display: flex;
   align-items: center;
 }
 @media only screen and (max-width: 37.5em) {
   .quicklist {
     flex-direction: column;
-    margin: 5rem;
+    padding: 5rem;
   }
 }
 @media only screen and (max-width: 50em) {
   .quicklist {
     flex-direction: column;
-    margin: 5rem;
+    padding: 5rem;
   }
 }
 .quicklist__images {
@@ -354,7 +354,7 @@ body {
 }
 
 .features {
-  margin: 10rem;
+  padding: 10rem;
   display: flex;
 }
 @media only screen and (max-width: 37.5em) {
@@ -369,12 +369,12 @@ body {
 }
 @media only screen and (max-width: 37.5em) {
   .features {
-    margin: 5rem;
+    padding: 5rem;
   }
 }
 @media only screen and (max-width: 50em) {
   .features {
-    margin: 5rem;
+    padding: 5rem;
   }
 }
 .features__details {
@@ -533,16 +533,16 @@ body {
 }
 
 .sponsors {
-  margin: 10rem;
+  padding: 10rem;
 }
 @media only screen and (max-width: 37.5em) {
   .sponsors {
-    margin: 5rem;
+    padding: 5rem;
   }
 }
 @media only screen and (max-width: 50em) {
   .sponsors {
-    margin: 5rem;
+    padding: 5rem;
   }
 }
 .sponsors__title {

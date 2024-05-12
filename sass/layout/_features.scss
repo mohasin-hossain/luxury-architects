@@ -1,5 +1,5 @@
 .features {
-    margin: 10rem;
+    padding: 10rem;
     display: flex;
 
     @include respond(tab-land) {
@@ -7,7 +7,7 @@
     }
 
     @include respond(phone) {
-        margin: 5rem;
+        padding: 5rem;
     }
     
     &__details {
